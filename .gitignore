@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+
+logs
+bower_components
+node_modules
+public
+vendor

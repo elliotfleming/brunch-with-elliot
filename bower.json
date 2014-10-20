@@ -1,0 +1,31 @@
+{
+  "name": "brunch-with-elliot",
+  "version": "0.0.1",
+  "author": "Elliot Fleming",
+  "homepage": "https://github.com/elliotfleming/brunch-with-elliot",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chaplin": "latest",
+    "backbone": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "handlebars": "latest",
+    "jquery": "latest",
+    "underscore": "latest"
+  },
+  "overrides": {
+    "backbone": {
+      "dependencies": {
+        "underscore": "*",
+        "jquery": "*"
+      },
+      "main": "backbone.js"
+    }
+}
+}

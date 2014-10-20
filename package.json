@@ -1,0 +1,29 @@
+{
+  "name": "brunch-with-elliot",
+  "version": "0.0.1",
+  "author": "Elliot Fleming",
+  "homepage": "https://github.com/elliotfleming/brunch-with-elliot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliotfleming/brunch-with-elliot"
+  },
+  "bugs": {
+    "url": "https://github.com/elliotfleming/brunch-with-elliot/issues"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "javascript-brunch": "latest",
+    "coffee-script-brunch": "latest",
+    "css-brunch": "latest",
+    "stylus-brunch": "latest",
+    "handlebars-brunch": "latest",
+    "uglify-js-brunch": "latest",
+    "clean-css-brunch": "latest",
+    "auto-reload-brunch": "latest"
+  }
+}
